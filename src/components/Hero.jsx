@@ -11,7 +11,7 @@ const Hero=()=>{
     const [hasClick,setHashClicked]=useState(false);
     const [isLoading,setIsLoading]=useState(false);
     const [loadedVideo,setLoadedVideos]=useState(0);
-    const totalVideos=3;
+    const totalVideos=4;
     const nextVdRef=useRef(null);
     const upcomingVideoIndex=(currentIndex%totalVideos)+1;
     const handleMinVdClick=()=>{
